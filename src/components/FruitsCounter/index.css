@@ -1,0 +1,84 @@
+.yellow-container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 35px;
+}
+
+.content-container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'roboto';
+  padding-bottom: 30px;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.count {
+  color: #ffd569;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-container {
+    flex-direction: row;
+  }
+}
+
+.image {
+  width: 200px;
+  height: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+.fruit-button {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.button {
+  border-radius: 8px;
+  border-color: #007bff;
+  outline: none;
+  cursor: pointer;
+}
+
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banana-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
